@@ -7,12 +7,13 @@ Style Transfer, is the process of creating an image "C", with the same "content"
 In lyman terms, at first, a pretriend image classifier (e.g. VGG-19) is used to extract different convo-layers of an image. Early layers, represent the content of an image and deeper layers, represent the style. In case of "Mona Lisa", the early layers, represent the woman, and the deeper layers, represent the color scheme and stroke.  
 Early layers of image A and deeper layers of image B will be extracted. The same process will be done on the result image. Then, by an optimization process, the difference between early and deeper layers of the result image, and the respective layers of images A and B, will be minimized.  
 ## Results
-A sample result of the prject is shown below:  
-![](https://github.com/314arhaam/DeepTransfer/tree/master/results/challenger/dodge-challenger.png) + ![](https://github.com/314arhaam/DeepTransfer/tree/master/results/challenger/scream.jpg) = ![](https://github.com/314arhaam/DeepTransfer/tree/master/results/challenger/style-transfer-dodge.png)
-
-<img src="https://github.com/314arhaam/DeepTransfer/tree/master/results/challenger/dodge-challenger.png"></img>
+That's how it works:  
+<p align="center">
+  <img src="https://github.com/314arhaam/DeepTransfer/blob/master/results/style-transfer-diagram.png" height=400/>
+</p>
+  
 ## BibTex
-Bibliography of the reference works.
+Bibliography of the reference works.  
 ```
 @InProceedings{Gatys_2016_CVPR,
 author = {Gatys, Leon A. and Ecker, Alexander S. and Bethge, Matthias},
